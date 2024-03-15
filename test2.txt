@@ -1,1 +1,0 @@
-test 2 para ver si funciono la uatenticacion con el servidor y poder hacer pull y push primero intetaremos el pull
