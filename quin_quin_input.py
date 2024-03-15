@@ -94,13 +94,13 @@ timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
 set_up_psi4(timestamp)
 
 # Aquí necesitas cargar tus coordenadas y definir las rutas a tus archivos XYZ
-coor = np.load('/path/to/your/pf6_configurations.npy')
-archivo_mol1 = '/path/to/your/first_molecule.xyz'
-archivo_mol2 = '/path/to/your/second_molecule.xyz'
+coor = np.load('/home/miguel/QM_Project/configurations/CHN_xaxis_rot_config_20240225_172127.npy')
+archivo_mol1 = '/home/miguel/QM_Project/coord_archives/CHN_multipole_charged.xyz'
+archivo_mol2 = '/home/miguel/QM_Project/coord_archives/CHN_multipole_charged.xyz'
 
 geometrias = generar_geometria_psi4(archivo_mol1, archivo_mol2, coor)
 energies = calculate_energies(geometrias)
 
 filename = f'{script_name}_resultados_{timestamp}.npz'
 save_results_npz(*energies, filename=filename)
-# remember that different input files should have different configurations file
+# remember that different input files should have different configurations/geometry files

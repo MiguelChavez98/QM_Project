@@ -1,0 +1,136 @@
+
+Host: cmpsrv001.ph.qmul.ac.uk
+
+Timers On : Sun Feb 25 19:01:20 2024
+Timers Off: Thu Mar  7 18:20:00 2024
+
+Wall Time:   947919.13 seconds
+
+                                                       Time (seconds)
+Module                                       User      System        Wall        Calls
+SAPT: Dimer SCF                     : 709601.017u  64697.050s  22446.008w     64 calls
+Libint2ERI::Libint2ERI              :   4348.217u     72.150s   2385.211w   5888 calls
+JK: (A|mn)                          :  14599.900u  17487.567s    688.788w     64 calls
+JK: (A|Q)^-1/2                      :   6986.717u    201.850s    177.532w     64 calls
+JK: (Q|mn)                          :  74555.467u  10338.683s   2244.554w     64 calls
+HF: Form core H                     :   4026.350u    105.133s    386.450w    192 calls
+HF: Form S/X                        :   4711.267u    175.183s    113.536w    192 calls
+HF: Guess                           :   3591.383u    220.517s     96.806w    192 calls
+SAD Guess                           :   3362.483u    206.967s     91.377w    192 calls
+HF: Form G                          : 1815250.983u  96522.467s  51470.043w   2700 calls
+JK: D                               :    591.717u     28.000s     13.293w   2700 calls
+JK: USO2AO                          :     38.167u      1.950s      0.867w   2700 calls
+JK: JK                              : 1813793.867u  96378.333s  51432.805w   2700 calls
+JK: J                               :  25268.883u   6479.467s  10352.806w   2700 calls
+JK: J1                              :  19969.517u   5596.700s   6870.255w   2700 calls
+JK: J2                              :   4909.500u    860.967s   3463.324w   2700 calls
+JK: K                               : 1773598.517u  88227.233s  40609.726w   2700 calls
+JK: K1                              : 1624768.000u  85781.350s  36729.871w   2700 calls
+JK: K2                              : 148820.250u   2442.067s   3875.596w   2700 calls
+JK: AO2USO                          :      0.350u      0.033s      0.020w   2700 calls
+HF: Form F                          :    676.783u     43.200s     15.590w   2700 calls
+HF: Form D                          :    484.700u     22.500s     12.715w   2700 calls
+HF: DIIS                            :  36518.267u   2115.867s    837.331w   2508 calls
+HF: Form C                          :  53761.550u   1932.117s   1375.521w   2508 calls
+SAPT: Monomer A SCF                 : 660315.533u  33737.767s  18970.653w     64 calls
+SAPT: Monomer B SCF                 : 659037.950u  33927.317s  18891.447w     64 calls
+DF Integrals                        : 2139639.317u  99977.233s 118194.008w     64 calls
+Omega Integrals                     :   1229.800u   7407.367s  13162.398w     64 calls
+Amplitudes                          : 11157052.333u 374724.117s 362147.720w     64 calls
+Elst10                              :      0.017u      0.017s      0.518w     64 calls
+Exch10 S^2                          :    100.683u      7.383s     11.207w     64 calls
+Exch10                              :    421.767u     18.367s     11.067w     64 calls
+Ind20,r                             : 1602339.967u 169327.783s  45579.704w     64 calls
+Exch-Ind20,r                        :   9780.167u   1001.583s    597.239w     64 calls
+Disp20                              :  40332.200u   2624.967s   2560.026w     64 calls
+Exch-Disp20                         : 737742.183u  26729.517s  22737.513w     64 calls
+Elst12                              :     93.533u      7.400s     80.760w     64 calls
+Exch11                              :   5075.800u    544.517s    402.993w     64 calls
+Exch12                              : 8690680.267u 689526.483s 276146.233w     64 calls
+Ind22                               : 523867.100u  65340.850s  45184.463w     64 calls
+
+--------------------------------------------------------------------------------------
+SAPT: Dimer SCF                     : 709601.017u  64697.050s  22446.008w     64 calls
+| Libint2ERI::Libint2ERI            :    220.717u      2.200s    135.217w    128 calls
+| JK: (A|mn)                        :  14599.900u  17487.567s    688.788w     64 calls
+| JK: (A|Q)^-1/2                    :   6986.717u    201.850s    177.532w     64 calls
+| | Libint2ERI::Libint2ERI          :     33.200u      1.767s      0.746w   1792 calls
+| JK: (Q|mn)                        :  74555.467u  10338.683s   2244.554w     64 calls
+| HF: Form core H                   :   1687.633u     53.517s    335.066w     64 calls
+| HF: Form S/X                      :   1644.950u     63.717s     40.180w     64 calls
+| HF: Guess                         :   2224.317u    125.783s     65.416w     64 calls
+| | SAD Guess                       :   2058.433u    115.867s     61.445w     64 calls
+| HF: Form G                        : 571859.100u  33749.667s  16898.770w    908 calls
+| | JK: D                           :    223.983u     10.767s      5.032w    908 calls
+| | JK: USO2AO                      :     14.033u      0.733s      0.318w    908 calls
+| | JK: JK                          : 571296.267u  33699.717s  16884.348w    908 calls
+| | | JK: J                         :  11158.433u   2689.700s   3769.202w    908 calls
+| | | | JK: J1                      :   9315.650u   2355.633s   2564.954w    908 calls
+| | | | JK: J2                      :   1669.967u    324.233s   1197.135w    908 calls
+| | | JK: K                         : 557334.500u  30415.467s  12967.965w    908 calls
+| | | | JK: K1                      : 485141.117u  29401.300s  11049.358w    908 calls
+| | | | JK: K2                      :  72190.100u   1012.517s   1917.048w    908 calls
+| | JK: AO2USO                      :      0.000u      0.000s      0.003w    908 calls
+| HF: Form F                        :    270.983u     18.050s      6.266w    908 calls
+| HF: Form D                        :    169.350u      8.000s      4.454w    908 calls
+| HF: DIIS                          :  12407.483u    690.033s    283.838w    844 calls
+| HF: Form C                        :  18164.283u    660.383s    465.110w    844 calls
+SAPT: Monomer A SCF                 : 660315.533u  33737.767s  18970.653w     64 calls
+| Libint2ERI::Libint2ERI            :    225.100u      2.133s    136.376w    128 calls
+| HF: Form core H                   :   1174.750u     26.033s     25.811w     64 calls
+| HF: Form S/X                      :   1530.417u     55.533s     36.626w     64 calls
+| HF: Guess                         :    681.617u     47.000s     15.648w     64 calls
+| | SAD Guess                       :    650.883u     45.250s     14.937w     64 calls
+| HF: Form G                        : 622313.983u  31305.350s  17311.724w    896 calls
+| | JK: D                           :    195.250u      9.400s      4.395w    896 calls
+| | JK: USO2AO                      :     12.367u      0.683s      0.279w    896 calls
+| | JK: JK                          : 621857.500u  31263.333s  17300.254w    896 calls
+| | | JK: J                         :   6627.683u   1887.083s   3295.685w    896 calls
+| | | | JK: J1                      :   4902.000u   1615.183s   2159.936w    896 calls
+| | | | JK: J2                      :   1616.617u    266.050s   1129.726w    896 calls
+| | | JK: K                         : 608853.267u  28822.383s  13836.390w    896 calls
+| | | | JK: K1                      : 570284.800u  28127.400s  12849.047w    896 calls
+| | | | JK: K2                      :  38564.817u    694.017s    985.995w    896 calls
+| | JK: AO2USO                      :      0.233u      0.017s      0.009w    896 calls
+| HF: Form F                        :    211.417u     13.383s      4.863w    896 calls
+| HF: Form D                        :    159.217u      6.917s      4.162w    896 calls
+| HF: DIIS                          :  12041.567u    681.517s    275.784w    832 calls
+| HF: Form C                        :  17816.300u    634.267s    455.549w    832 calls
+SAPT: Monomer B SCF                 : 659037.950u  33927.317s  18891.447w     64 calls
+| Libint2ERI::Libint2ERI            :    223.017u      1.533s    134.720w    128 calls
+| HF: Form core H                   :   1163.967u     25.583s     25.574w     64 calls
+| HF: Form S/X                      :   1535.900u     55.933s     36.729w     64 calls
+| HF: Guess                         :    685.450u     47.733s     15.742w     64 calls
+| | SAD Guess                       :    653.167u     45.850s     14.994w     64 calls
+| HF: Form G                        : 621077.900u  31467.450s  17259.548w    896 calls
+| | JK: D                           :    172.483u      7.833s      3.866w    896 calls
+| | JK: USO2AO                      :     11.767u      0.533s      0.270w    896 calls
+| | JK: JK                          : 620640.100u  31415.283s  17248.203w    896 calls
+| | | JK: J                         :   7482.767u   1902.683s   3287.919w    896 calls
+| | | | JK: J1                      :   5751.867u   1625.883s   2145.364w    896 calls
+| | | | JK: J2                      :   1622.917u    270.683s   1136.463w    896 calls
+| | | JK: K                         : 607410.750u  28989.383s  13805.371w    896 calls
+| | | | JK: K1                      : 569342.083u  28252.650s  12831.466w    896 calls
+| | | | JK: K2                      :  38065.333u    735.533s    972.553w    896 calls
+| | JK: AO2USO                      :      0.117u      0.017s      0.008w    896 calls
+| HF: Form F                        :    194.383u     11.767s      4.461w    896 calls
+| HF: Form D                        :    156.133u      7.583s      4.099w    896 calls
+| HF: DIIS                          :  12069.217u    744.317s    277.709w    832 calls
+| HF: Form C                        :  17780.967u    637.467s    454.862w    832 calls
+DF Integrals                        : 2139639.317u  99977.233s 118194.008w     64 calls
+| Libint2ERI::Libint2ERI            :   3646.183u     64.517s   1978.152w   3712 calls
+Omega Integrals                     :   1229.800u   7407.367s  13162.398w     64 calls
+Amplitudes                          : 11157052.333u 374724.117s 362147.720w     64 calls
+Elst10                              :      0.017u      0.017s      0.518w     64 calls
+Exch10 S^2                          :    100.683u      7.383s     11.207w     64 calls
+Exch10                              :    421.767u     18.367s     11.067w     64 calls
+Ind20,r                             : 1602339.967u 169327.783s  45579.704w     64 calls
+Exch-Ind20,r                        :   9780.167u   1001.583s    597.239w     64 calls
+Disp20                              :  40332.200u   2624.967s   2560.026w     64 calls
+Exch-Disp20                         : 737742.183u  26729.517s  22737.513w     64 calls
+Elst12                              :     93.533u      7.400s     80.760w     64 calls
+Exch11                              :   5075.800u    544.517s    402.993w     64 calls
+Exch12                              : 8690680.267u 689526.483s 276146.233w     64 calls
+Ind22                               : 523867.100u  65340.850s  45184.463w     64 calls
+
+**************************************************************************************
