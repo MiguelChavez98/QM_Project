@@ -72,13 +72,18 @@ Para el caso de la constante [C] Lo que tenemos es que convertir a bohr primero 
 Factor de Angstrom to bohr es: [1.8897261246257702]
 
 Ahora para el caso de la dispersion lo que tenemos es una valor de k de 5.203428163043108 y multiplicando eso por el valor de el factor de 13.77929292 queda un factor para esas cosntantes de: 
-[71.699560]
+[71.699560] Esta constante es de kcalorias por que en realidad lo que tenemos son kilocalorias como factor y la parte de bohr a la 6 ya se hizo para poderlo incluir en la constante de dispersion y si le agregamos que ponemos tambien el valor de conversion pues ya casi esta todo en esa constante pero como es kcal lo pasamos a kj con el 4. 
+
+Esto esta mal, para el caso de la dispersion lo que tenemos es una constante que si ponemos todo en unidades atomicas nos deberia dar hartree por que es lo que las unidades originales tienen, asi queajustamos los valores para obtener unidades atomicas y despues podemos poner la conversion a hartree dentro de las misma variable o constante, asi que ademas de eso hay que ver como se eliminan y multiplican los datos por que si lo que buscamos es tener hartree multiplicar por 13 que es el factor de angstrom a bohr hace que el resultado ya no este en hartree, mas bien lo tenemos que incluir en las constantes desde ahorita. #may 10 2024
+
+seriaaaa, mentira si lo hice bien pero de menso no lo escribi, por que tengo el 1.8897 a la 6 abajo, bien, pero tengo arriba el de convertir a kcal asi que ahi realmente no esta aca, mas bien el que falta ahi es el por 4 por que son kilocalorias lo que estoy convirtiendo el hartree y la constante a si que vamos a checar eso # may 10 2024
 
 Ahora ya tenemos los 3 factores para las 3 constantes. Vamos a escribirlas y poner los factores: 
 
 
-Ap = 30.61343 * 71.699560 = 2194.9694610908005 ESte seria C
-Af = 11.50171 * 71.699560 = 824.6675462476001
+Ap = 30.61343 * 71.699560 * 4.184 = 9183.752225203909 ESte seria C Este deberia ser correcto--
+ESTOS PODRIAN IR ENTRE 2 osea divididos. 
+Af = 11.50171 * 71.699560 * 4.184 = 3450.4090134999587
 
 Bp = 48058.29804395409 * 2625.497656 = 126176948.86575085 # :CCC Este seria A
 Bf = 305.98575047049286 * 2625.497656 = 803364.8706296799 # :/
