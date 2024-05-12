@@ -91,7 +91,11 @@ Bf = 305.98575047049286 * 2625.497656 = 803364.8706296799 # :/
 Cp = 1.72034397464677 * 1.8897261246257702 = 3.2509789522325345      Este seria B 
 Cf = 3.2512195680784135 * 1.8897261246257702 = 6.143914554692291
 
+# May 12
 
+Archivo de penalizacion llamado penalizacion.py en SPIDER para aplicar a la parte de la optimizacion. 
+
+Basicamente vamos a crear un vector de penalizaciones para tener un vector que sirva para castigar de forma individual que tanto se aleja un parametro de lo esperado. 
 
 
 
