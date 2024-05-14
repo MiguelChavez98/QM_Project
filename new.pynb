@@ -1,0 +1,20 @@
+
+############ APPROACH 1 ###################
+
+parameter_factors = np.array([10, 0.001, 223, ...]) 
+# tune this to determine the relative strengths of the constraint on parameters and the energies
+
+
+parameter_change_penalty = (final_parameters - initial_parameters)*parameter_factors
+total_penalty = np.hstack((diferencias, parameter_change_penalty))
+return sum(total_penalty**2)
+
+############ APPROACH 2 ###################
+
+parameter_factor = 10
+# tune this to determine the relative strengths of the constraint on parameters and the energies
+
+
+parameter_change_penalty = (final_parameters - initial_parameters)/initial_parameters*parameter_factor
+total_penalty = np.hstack((diferencias, parameter_change_penalty))
+return sum(total_penalty**2)

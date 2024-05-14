@@ -99,4 +99,19 @@ Basicamente vamos a crear un vector de penalizaciones para tener un vector que s
 
 
 
+# May 14 
+
+Orientation time correlation vector dot poduct in time zero. Position
+
+Lower temperatures
+
+box around. 
+
+super cell. 
+
+automatization. 
+
+try models like argon in crystals like fcc. 
+
+
 
